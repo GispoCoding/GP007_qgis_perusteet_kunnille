@@ -7,7 +7,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Introduction to QGIS" />
+<meta property="og:title" content="QGIS perusteet kunnille" />
 <meta property="og:type" content="book" />
 
 
@@ -19,9 +19,9 @@
 <meta name="date" content="2023-05-05" />
 
 
-<meta name="description" content="Introduction to QGIS">
+<meta name="description" content="QGIS perusteet kunnille">
 
-<title>Introduction to QGIS</title>
+<title>QGIS perusteet kunnille</title>
 
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
@@ -56,14 +56,14 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 
 <div class="sidebar-title-wrapper">
 <img alt="Logo" width="100" src="img/gispo_white_sm.png" class="sidebar-logo">
-<div class="sidebar-title"><h1>Introduction to QGIS</h1></div>
-<div class="abstract-sidebar"><p>A course covering advanced GeoServer topics.</p></div>
+<div class="sidebar-title"><h1>QGIS perusteet kunnille</h1></div>
+<div class="abstract-sidebar"><p>Peruskurssi kunnille QGIS-ohjelmiston perusteisiin</p></div>
 </div>
 
 <nav class="sidebar-nav">
 <div id="TOC" class="toc">
 <ul>
-<li><a href="index.html#template"><span class="toc-section-number">1</span> Template</a>
+<li><a href="index.html#qgis-perusteet-kunnille"><span class="toc-section-number">1</span> QGIS perusteet kunnille</a>
 <ul>
 <li><a href="index.html#tervetuloa-kurssille"><span class="toc-section-number">1.1</span> Tervetuloa kurssille!</a></li>
 <li><a href="index.html#lukuohje"><span class="toc-section-number">1.2</span> Lukuohje</a></li>
@@ -155,21 +155,26 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <!-- This title section is only rendered to index.html -->
 <div id="title-container">
 
-<h1 id="title-header">Introduction to QGIS</h1>
+<h1 id="title-header">QGIS perusteet kunnille</h1>
 
 <h4 class="author">Gispo Ltd.</h4>
 
 <h4 id="build-date">Version: 2023-05-05</h4>
 
-<div class="abstract"><p>A course covering advanced GeoServer topics.</p></div>
+<div class="abstract"><p>Peruskurssi kunnille QGIS-ohjelmiston perusteisiin</p></div>
 
 </div>
 <!-- Harjoitukset -->
-<div id="template" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Template</h1>
+<div id="qgis-perusteet-kunnille" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> QGIS perusteet kunnille</h1>
 <div id="tervetuloa-kurssille" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> Tervetuloa kurssille!</h2>
-<p>Kurssilla tehdään ja opitaan niitä ja näitä.</p>
+<p>Tämän kurssin tarkoituksena on opastaa sinut QGIS-ohjelmiston käyttöön ja sen erilaisiin ominaisuuksiin. Muiden paikkatieto-ohjelmistojen käyttökokemus ei ole välttämätöntä koulutukseen osallistumiselle. Toki niistä on paljon hyötyä. Kysy rohkeasti opettajalta lisätietoja, jos käytetty terminologia tai joku muu asia jää epäselväksi.</p>
+<p><strong>QGISin taustaa</strong></p>
+<p>QGIS (alkuperäiseltä nimeltään Quantum GIS) on yhteisöllisesti kehitetty avoimen lähdekoodin paikkatieto-ohjelmisto. QGISin kehittäminen on alkanut heinäkuussa 2002, jonka jälkeen kehitystyöhön on osallistunut yli 150 sovelluskehittäjää. QGISin käyttäjämäärää on hyvin vaikea arvioida, sillä ohjelmistoa ei tarvitse rekisteröidä ja sitä voi jakaa edelleen vapaasti. Karkeasti arvioiden voidaan kuitenkin todeta, että QGIS-ohjelmiston eri versioilla on yli miljoona käyttäjää maailmanlaajuisesti. QGIS–ohjelmisto ja sen lisäosat muodostavat kattavan ohjelmistoperheen paikkatietojen keräämiseen, mallintamiseen, analysointiin, visualisointiin ja jakeluun. Tämän kurssin aikana käsittelemme vain murto-osaa QGISin kaikista toiminnallisuuksista.</p>
+<p><strong>Miksi QGIS?</strong></p>
+<p>Perimmäinen syy QGISin käyttöön on tietysti paikkatietoaineistojen hyödyntäminen. Paikkatietoja voi hyödyntää monilla avoimen ja suljetun lähdekoodin ohjelmistolla, mutta tässä muutamia perusteluja juuri QGIS-ohjelmiston käytölle:</p>
+<p>QGIS on ilmainen. Voit ladata ja asentaa QGIS ilman lisenssi- tai käyttömaksuja. Käyttöön ei sisälly mitään maksuja. QGIS on vapaa. Jos tarvitset QGISiin lisää ominaisuuksia, sinulla on täysi vapaus laajentaa ja muuttaa QGISiä. Sinun ei tarvitse odottaa seuraavaa versioita ja toivoa, että tarvitsemasi ominaisuudet ovat sisällytetty mukaan. Jos osaat ohjelmoida, voit lisätä ominaisuudet itse. Voit myös rahoittaa uusien ominaisuuksien kehittämistä osaksi QGISiä. QGIS kehittyy jatkuvasti. Kuka tahansa voi lisätä tai rahoittaa uusia ominaisuuksia QGISiin ja siksi ohjelmisto kehittyy kiihtyvällä vauhdilla. Erilaisten lisäosien avulla on helppo toteuttaa omia prosesseja tukevia toimintoja. QGIS on hyvin dokumentoitu. QGIS sisältää laajan dokumentaation. Koko ajan kasvava käyttäjäyhteisö auttaa mielellään uusia käyttäjiä ja voit myös kysyä apua suoraan sovelluskehittäjiltä. QGIS on järjestelmäriippumaton. QGISiä voi käyttää Windows-, Linux- ja Mac-käyttöjärjestelmissä. QGIS on suomenkielinen. QGIS-käyttöliittymä on suomennettu. Myös ruotsinkielinen versio on käytettävissä ilman lisäkustannuksia. Käyttöohjeita, web-sivustoja ja muita materiaaleja kehitetään ja suomennetaan jatkuvasti.</p>
 </div>
 <div id="lukuohje" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Lukuohje</h2>
@@ -218,7 +223,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 </div>
 <div id="lisenssi-ja-oikeudet" class="section level2" number="1.5">
 <h2><span class="header-section-number">1.5</span> Lisenssi ja oikeudet</h2>
-<p>Nämä materiaalit on “_____”-kurssille kehittänyt Gispo Oy. Materiaalit on lisensoitu seuraavalla lisenssillä: <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a></p>
+<p>Nämä materiaalit on “QGIS perusteet kunnille”-kurssille kehittänyt Gispo Oy. Materiaalit on lisensoitu seuraavalla lisenssillä: <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a></p>
 
 </div>
 </div>
@@ -233,7 +238,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <div class="footer-container text-center">
 
 <div class="footer-info">
-<h5 class="footer-title">Introduction to QGIS</h5>
+<h5 class="footer-title">QGIS perusteet kunnille</h5>
 <span class="footer-version">v2023-05-05</span>
 <div class="license"><img src="img/by-nd.svg" width="80px" alt="CC-BY-ND"></div>
 </div>
