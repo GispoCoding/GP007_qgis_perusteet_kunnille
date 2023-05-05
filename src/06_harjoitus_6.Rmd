@@ -6,7 +6,7 @@ Harjoituksessa tehdään edistyneitä digitoinnin operaatioita QGISillä.
 
 **Harjoituksen tavoite**
 
-Harjoituksen jälkeen opiskelija osaa hyödyntää monipuolisemmin editoinnin ominaisuuksia.
+Harjoituksen jälkeen opiskelija osaa hyödyntää monipuolisemmin QGISin editoinnin ominaisuuksia.
 
 **Arvioitu kesto**
 
