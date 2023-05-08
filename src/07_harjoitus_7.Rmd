@@ -10,7 +10,7 @@ Koulutettava oppii laatimaan karttatulosteen halutussa mittakaavassa sekä tehd�
 
 ## Valmistautuminen
 
-Käynnistä QGIS-ohjelmisto. Avaa harjoituksen 4 QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_7**". Voit poistaa tai laittaa näkyvistä tasot TieViiva ja NaturaKohde_ma.
+Käynnistä QGIS-ohjelmisto. Avaa harjoituksen 4 QGIS-projektisi ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_7**". Voit poistaa tai laittaa näkyvistä tasot TieViiva ja NaturaKohde_ma.
 
 ## Karttatuloste
 
@@ -38,7 +38,7 @@ Valitse **Elementin ominaisuudet -välilehti** ja muuta kartan parametrejä seur
 Huomaa, että karttatulosteen hallinnassa on mahdollisuus siirtää yksittäisiä kohteita (nimikkeitä) tai muokata kartan sijaintia. Kohteen ollessa valittuna, voit siirtää sitä tulosteella seuraavan työkalun avulla:
 
 |                                  |                                                         |
-|:-----------------:|:---------------------------------------------------:|
+|:------------------:|:--------------------------------------------------:|
 | ![](img/harjoitus_7/image16.png) |                Valitse/siirrä elementtiä                |
 | ![](img/harjoitus_7/image21.png) | Siirrä elementin sisältöä (esimerkiksi kartan sisältöä) |
 | ![](img/harjoitus_7/image19.png) |                 Zoomaa taiton näkymässä                 |
