@@ -1,4 +1,4 @@
-template
+qgis-perusteet-kunnille
 tervetuloa-kurssille
 lukuohje
 mistä-lisätietoja
