@@ -12,10 +12,9 @@ Koulutettava oppii muodostamaan eri tyyppisille paikkatietokohteille tekstitykse
 
 Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_4**". Avaa projektiin seuraavat aineistot:
 
--   **.../kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp**
--   **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**
--   **.../kurssihakemisto/HSY/Vaestotietoruudukko_2019.gpkg**
--   **.../kurssihakemisto/MML/Korkeusmalli_2m/L4133B.asc** (rasteri)
+-   **.../kurssihakemisto/Harjoitus 4/NaturaKohde_ma.shp**
+-   **.../kurssihakemisto/Harjoitus 4/TieViiva.shp**
+-   **.../kurssihakemisto/Harjoitus 4/Vaestotietoruudukko.gpkg**
 
 Aseta aluksi **NaturaKohde_ma** -taso näkyviin ja muut näkymättömäksi
 
@@ -30,7 +29,7 @@ QGIS käyttöliittymässä paikkatietokohteiden tekstitykseen viitataan termill�
 Nimiöiden tekstien näkymistä kartalla voi määrittää monella eri tavalla. Alla kuvaukset QGISin nimiöiden muokkaamisen alateemoista:
 
 |               |                                                                                                                                                      |
-|:-------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------:|:-------------------------------------------------------|
 |    Teksti     | Määritellään tekstin tyyli, väri ja muita yleisiä ominaisuuksia                                                                                      |
 |   Muotoilu    | Voit muodostaa useampirivisiä tekstejä, keskittää tekstiä ja määritellä lukujen muotoa                                                               |
 |    Vyöhyke    | Luodaan tekstiä korostavat puskurit (tekstin reunukset)                                                                                              |
@@ -134,3 +133,8 @@ Paina **OK**. Natura-kohteiden nimiöt eivät enää näy 1:500 000 mittakaavan 
 Kokeile yhdistää kaksi saraketta samaan nimiöön **\|\| -merkin** avulla esimerkiksi seuraavalla tavalla: "**sarake1 \|\| sarake2**". Uuden rivin saat komennolla **`‘\n’`** . Huomaa, miten **Tuloksen esikatselu -kohtaan** tulee esille nimiöinnin oletettu tulos (aineistosta otetuilla esimerkkiarvoilla).
 
 ![](img/harjoitus_4/image1.png)
+
+
+::: hint-box
+**Psst! Muista tallentaa QGIS-projekti harjoituksen lopuksi.**
+:::

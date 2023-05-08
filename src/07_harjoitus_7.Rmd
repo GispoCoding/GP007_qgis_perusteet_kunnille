@@ -10,7 +10,7 @@ Koulutettava oppii laatimaan karttatulosteen halutussa mittakaavassa sekä tehd�
 
 ## Valmistautuminen
 
-Käynnistä QGIS-ohjelmisto. Avaa edellisen harjoituksen QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_7**".
+Käynnistä QGIS-ohjelmisto. Avaa harjoituksen 4 QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_7**". Voit poistaa tai laittaa näkyvistä tasot TieViiva ja NaturaKohde_ma.
 
 ## Karttatuloste
 
@@ -38,7 +38,7 @@ Valitse **Elementin ominaisuudet -välilehti** ja muuta kartan parametrejä seur
 Huomaa, että karttatulosteen hallinnassa on mahdollisuus siirtää yksittäisiä kohteita (nimikkeitä) tai muokata kartan sijaintia. Kohteen ollessa valittuna, voit siirtää sitä tulosteella seuraavan työkalun avulla:
 
 |                                  |                                                         |
-|:----------------:|:----------------------------------------------------:|
+|:-----------------:|:---------------------------------------------------:|
 | ![](img/harjoitus_7/image16.png) |                Valitse/siirrä elementtiä                |
 | ![](img/harjoitus_7/image21.png) | Siirrä elementin sisältöä (esimerkiksi kartan sisältöä) |
 | ![](img/harjoitus_7/image19.png) |                 Zoomaa taiton näkymässä                 |
@@ -81,7 +81,7 @@ QGIS mahdollistaa myös kartta-atlaksen tekemisen. Kartta-atlas on ns. karttakir
 
 -   Lataa ensiksi postinumeroalueet paikkatietoaineiston avoindata.fi-sivustolta: <https://www.avoindata.fi/data/fi/dataset/paakaupunkiseudun-postinumeroalueet> Lataa aineisto haluamassasi muodossa kurssikansioosi ja lisää se oppimallasi tavalla QGIS-projektiin.
 
-TAI \* - **Lisää .../kurssihakemisto/HSY/Postinumeroalueet_2019.gpkg** eli HSY:n postinumeroaineisto QGIS-projektiisi. Huom! Tämä aineisto on tallennettu koordinaattijärjestelmässä EPSG: 3067.
+TAI \* - **Lisää .../kurssihakemisto/Harjoitus 7/Postinumeroalueet_2019.gpkg** eli HSY:n postinumeroaineisto QGIS-projektiisi. Huom! Tämä aineisto on tallennettu koordinaattijärjestelmässä EPSG: 3067.
 
 Nyt projektissa on tasoina ainakin väestöruutuaineisto ja postinumeroalueet. Voit myös lisätä muita haluamiasi tasoja projektiin (esimerkiksi tieviivat). Avaa uusi tuloste ja aseta sen sommittelu haluamaasi kokoon (esimerkiksi A5).
 

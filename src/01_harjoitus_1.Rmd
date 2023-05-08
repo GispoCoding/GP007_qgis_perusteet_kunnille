@@ -61,7 +61,7 @@ napsauttamalla **Avaa tietolähteiden hallinta --pikakuvakenäppäintä**:
 Löydät saman toiminnon myös Tasot-valikosta **Lisää taso → Lisää
 vektoritaso...** (Ctrl+Shift+V). Valitse avautuvasta ikkunasta
 vasemmalta puolelta **Vektori-välilehti**. Lisää aineisto kurssin
-materiaaleista (**.../kurssihakemisto/MML/YK_1M/**). Valitse nyt
+materiaaleista (**.../kurssihakemisto/Harjoitus 1**). Valitse nyt
 Maanmittauslaitoksen 1:1M-aineistosta **TieViiva.shp-tiedosto**. Paina
 lopuksi **Lisää** ja sulje ikkuna.
 

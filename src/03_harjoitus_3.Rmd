@@ -12,9 +12,10 @@ Koulutettava oppii eri aineistotyyppien visualisointitapoja.
 
 Käynnistä QGIS-ohjelmisto. Avaa uusi QGIS-projekti ja tallenna se nimellä (**Projekti → Tallenna nimellä...**) "**QGIS_harjoitus_3**".
 
+
 ## Vektoriaineistojen visualisointi
 
-Aloita tutkimalla edellisessä harjoituksessa avattua tiestötasoa. Jos teit uuden QGIS-projektitiedoston, lisää taso painamalla **Lisää vektoritaso -painiketta** ja selaamalla tiedostoon **.../kurssihakemisto/MML/YK_1M/TieViiva.shp**. Paina hiiren oikealla painikkeella tason nimeä (TieViiva) tasoluettelossa. Valitse valikosta **Ominaisuudet**:
+Aloita tutkimalla edellisessä harjoituksessa avattua tiestötasoa. Jos teit uuden QGIS-projektitiedoston, lisää taso painamalla **Lisää vektoritaso -painiketta** ja selaamalla tiedostoon **.../kurssihakemisto/Harjoitus 3/TieViiva.shp**. Paina hiiren oikealla painikkeella tason nimeä (TieViiva) tasoluettelossa. Valitse valikosta **Ominaisuudet**:
 
 ![](img/harjoitus_3/image4.png)
 
@@ -24,13 +25,13 @@ Aloita tutkimalla edellisessä harjoituksessa avattua tiestötasoa. Jos teit uud
 
 Vaihda **Väri- ja Leveys-arvot**, ja paina **Käytä**. Sillä tavalla saat näkyviin tekemäsi muutokset sulkematta **Tason ominaisuudet -ikkunaa**. Avaa vielä jokin **symbolikirjasto**, esimerkiksi **Suosikit**, ja muuta viivan tyyliksi jokin sinua miellyttävä tyyli. Paina sitten **OK**, ikkuna sulkeutuu ja tiestö-taso näkyy nyt määrittämäsi visualisointityylin tavalla. Muut paikkatietoaineistojen visualisoinnin työkalut saa käyttöön samalla tavalla, avaamalla hiiren oikealla **Ominaisuudet** ja sivupalkista **Kuvaustekniikka**. Eri vektoriaineistotyypeillä (piste, viiva, monikulmio) on erilaiset kuvaustekniikan työkalut, vaikkakin ne muistuttavat paljon toisiaan. Esimerkiksi pistetasolle ei voida tehdä samoja tyylittelyjä kuin viiva- tai monikulmiotasolle. Rasteriaineistojen työkalut taas eroavat melko paljon vektoriaineistojen työkaluista. Katsomme näitä myöhemmin tässä harjoituksessa.
 
-Lisätään nyt toinen vektorimuotoinen aineisto QGIS-projektiimme. Käytä samaa työkalua kuin edellisessä harjoituksessa: avaa siis uusi taso painamalla **Lisää vektoritaso** -näppäintä. Etsi **.../kurssihakemisto/NaturalEarth/ne_10m_populated_places/** hakemistosta aineisto nimellä **ne_10m_populated_places_suomi.shp**. Tämä aineisto sisältää NaturalEarth-kaupunkiaineiston Suomesta. Avaa pistetason kuvaustekniikkaikkuna samalla tavalla kuin äsken viivatason yhteydessä. Huomaa erot viiva- ja pistetason kuvaustekniikan määrittelyissä:
+Lisätään nyt toinen vektorimuotoinen aineisto QGIS-projektiimme. Käytä samaa työkalua kuin edellisessä harjoituksessa: avaa siis uusi taso painamalla **Lisää vektoritaso** -näppäintä. Etsi **.../kurssihakemisto/Harjoitus 3/ne_10m_populated_places/** hakemistosta aineisto nimellä **ne_10m_populated_places_suomi.shp**. Tämä aineisto sisältää NaturalEarth-kaupunkiaineiston Suomesta. Avaa pistetason kuvaustekniikkaikkuna samalla tavalla kuin äsken viivatason yhteydessä. Huomaa erot viiva- ja pistetason kuvaustekniikan määrittelyissä:
 
 ![](img/harjoitus_3/image7.png){width="70%"}
 
 Vaihda pisteen **Väri** ja **Koko** ja paina taas **Käytä**. Pikanäppäimellä **F7** saat avatuksi **Tason tyylit -ikkunan**, joka on jatkuvasti avoinna karttaikkunan oikeassa laidassa. Tällöin voit helposti vaihtaa kaikkien tasojen kuvaustekniikkaa ja näet heti, miltä uusi tyyli näyttää. Vaihda symbolia ja kokeile myös, miten **Kierto** vaikuttaa symbolin näkymiseen.
 
-Toistetaan samat asiat vielä monikulmiotason kanssa. Avaa nyt toinen NaturalEarth-aineisto, jossa on Suomen alue erotettuna. Etsi **ne_10m_admin_0\_countries**-hakemistosta **ne_10m_admin_0\_countries_suomi.shp**
+Toistetaan samat asiat vielä monikulmiotason kanssa. Avaa nyt Suomen Natura-alueet, **Harjoitus 3**-hakemistosta **NaturaKohde_ma.shp**
 
 ![](img/harjoitus_3/image1.png){width="70%"}
 
@@ -43,8 +44,6 @@ Saattaa olla, että aineistotasot peittävät toisensa vaikka siten, että monik
 Voit myös piilottaa tai näyttää tasoja painamalla tason nimen vasemmalla puolella olevaa ruutua.
 
 ## Monikulmioaineiston edistynyt visualisointi
-
-Lisää QGIS-projektiin uusi paikkatietoaineisto: käytämme tässä harjoituksessa Suomen ympäristökeskuksen Natura2000-aluetietoaineistoa. Lisää kurssihakemistosta vektoriaineisto: **.../kurssihakemisto/SYKE/Natura2000/NaturaKohde_ma.shp-tiedosto** QGIS-projektiin.
 
 Ensimmäiseksi muutamme vektoriaineiston väriä. Avaa tason **Ominaisuudet → Kuvaustekniikka** ja klikkaa **Väri-kohdassa** olevaa väripalkkia. Valitse haluamasi väri vektoriaineistolle. Huomaa, että voit määritellä värit arvo **HSV-** (Hue, Saturation, Value) tai **RGB-arvoilla** (Red, Green, Blue). **Peittävyys-arvolla** säädät värin läpinäkyvyyttä. Kokeile myös **Värikarttaa**, **Väripyörää** ja **Liukuväri** (välilehdet). Valittuasi sopivan värin, paina **OK**. Paina sen jälkeen **Ominaisuudet-ikkunasta Käytä**. Näin **Ominaisuudet-ikkuna** pysyy auki ja voit katsoa tyylien muutoksia karttanäkymässä. Kun olet valinnut haluamasi värin, paina **OK**.
 
