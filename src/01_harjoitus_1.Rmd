@@ -32,11 +32,17 @@ väriskeemoissa ja tiedostopoluissa -- muuten erot ovat hyvin pieniä.
 
 ## Kurssimateriaalien lataus
 
+Voit halutessasi ladata kurssin luentokalvot täältä:
+
+::: note-box
+[Luentomateriaali](https://drive.google.com/file/d/1l_RAnREmj6eTKOKm9iRxRfgeifNhUMsm/view?usp=share_link)
+:::
+
 Kurssilla tarvittavat paikkatieto-aineistot on ladattavissa Google
 Drivestä linkistä
 
 ::: note-box
-[Kurssihakemisto.zip](https://drive.google.com/file/d/1JnRgpFY-yX0wIfyAL0Ya-8OmjIKmYQ3d/view?usp=share_link)
+[Kurssihakemisto.zip](https://drive.google.com/file/d/1EG91mrT0FZKAIj9KE8OKqMfWjFkVBalX/view?usp=share_link)
 :::
 
 Avaa yllä oleva linkki ja klikkaa **Lataa**. Tämä lataa aineistot
