@@ -48,8 +48,7 @@ rakentamistila
 rakennuksen-piirto-apuviivojen-avulla
 sitten-vain-harjoittelemaan.
 suorakulmaisen-polygonin-piirtäminen
-tehtävä-rakennus-3540-m-tontin-rajan-suuntaisesti-etäisyys-rajaan-15-m
-case-rakennusala-tontille-polygonin-kopiointi-toiseksi-itseään-pienemmäksi
+rakennustilan-hyödyntäminen-rakennuksen-piirtämisessä
 lisätehtävä-lisää-rakennukset-tasolle-funktio-jolla-pinta-ala-tieto-päivittyy-automaattisesti
 lopuksi
 harjoitus-7-karttatuloste

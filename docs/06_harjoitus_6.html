@@ -16,7 +16,7 @@
 
 <meta name="author" content="Gispo Ltd." />
 
-<meta name="date" content="2023-05-08" />
+<meta name="date" content="2023-05-16" />
 
 
 <meta name="description" content="7 Harjoitus 6: Edistyneet digitointiominaisuudet | QGIS perusteet kunnille">
@@ -130,10 +130,9 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <li><a href="06_harjoitus_6.html#sitten-vain-harjoittelemaan."><span class="toc-section-number">7.4.1</span> Sitten vain harjoittelemaan….</a></li>
 </ul></li>
 <li><a href="06_harjoitus_6.html#suorakulmaisen-polygonin-piirtäminen"><span class="toc-section-number">7.5</span> Suorakulmaisen polygonin piirtäminen</a></li>
-<li><a href="06_harjoitus_6.html#tehtävä-rakennus-3540-m-tontin-rajan-suuntaisesti-etäisyys-rajaan-15-m"><span class="toc-section-number">7.6</span> Tehtävä: “Rakennus 35×40 m tontin rajan suuntaisesti, etäisyys rajaan 15 m”</a></li>
-<li><a href="06_harjoitus_6.html#case-rakennusala-tontille-polygonin-kopiointi-toiseksi-itseään-pienemmäksi"><span class="toc-section-number">7.7</span> Case rakennusala tontille: polygonin kopiointi toiseksi itseään pienemmäksi</a></li>
-<li><a href="06_harjoitus_6.html#lisätehtävä-lisää-rakennukset-tasolle-funktio-jolla-pinta-ala-tieto-päivittyy-automaattisesti"><span class="toc-section-number">7.8</span> Lisätehtävä: Lisää Rakennukset tasolle funktio, jolla pinta-ala tieto päivittyy automaattisesti</a></li>
-<li><a href="06_harjoitus_6.html#lopuksi"><span class="toc-section-number">7.9</span> Lopuksi</a></li>
+<li><a href="06_harjoitus_6.html#rakennustilan-hyödyntäminen-rakennuksen-piirtämisessä"><span class="toc-section-number">7.6</span> Rakennustilan hyödyntäminen rakennuksen piirtämisessä</a></li>
+<li><a href="06_harjoitus_6.html#lisätehtävä-lisää-rakennukset-tasolle-funktio-jolla-pinta-ala-tieto-päivittyy-automaattisesti"><span class="toc-section-number">7.7</span> Lisätehtävä: Lisää Rakennukset tasolle funktio, jolla pinta-ala tieto päivittyy automaattisesti</a></li>
+<li><a href="06_harjoitus_6.html#lopuksi"><span class="toc-section-number">7.8</span> Lopuksi</a></li>
 </ul></li>
 <li><a href="07_harjoitus_7.html#harjoitus-7-karttatuloste"><span class="toc-section-number">8</span> Harjoitus 7: Karttatuloste</a>
 <ul>
@@ -162,11 +161,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p>45 minuuttia.</p>
 <div id="valmistautuminen-4" class="section level2" number="7.1">
 <h2><span class="header-section-number">7.1</span> Valmistautuminen</h2>
-<p>Avaa uusi QGIS-projekti (<strong>Projekti &gt; Uusi</strong>) ja tallenna se nimellä “<strong>QGIS-harjoitus 6</strong>”. Lisää projektiin seuraavat aineistot:</p>
-<ul>
-<li><p><strong>Aluesuunnitelma.gpkg (Alueet- ja Kulkureitit-tasot)</strong></p></li>
-<li><p><strong>OpenStreetMap</strong></p></li>
-</ul>
+<p>Voit jatkaa samalla projektilla, jonka teit edellisessä harjoituksessa.</p>
 </div>
 <div id="kohteisiin-tarttuminen-snapping-ja-rakennustila-construction-mode" class="section level2" number="7.2">
 <h2><span class="header-section-number">7.2</span> Kohteisiin tarttuminen (snapping) ja rakennustila (construction mode)</h2>
@@ -236,17 +231,16 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <li><p>Laita asteen mukaiset tukiviivat ja tarttuminen päälle laajennetun digitoinnin paneelista <img src="img/harjoitus_6/snap_common_angles.png" />. Riittävä tarkkuus on tässä <em>“90, 180, 270, 360 astetta”</em>.</p></li>
 <li><p>Aloita piirtäminen piirtämällä ensimmäiset kaksi pistettä haluttuihin kohtiin.</p></li>
 <li><p>Kolmannen pisteen piirtämistä helpottamaan näkyville tulee apuviiva kohtisuoraan jo piirrettyyn viivaan. Piirrä tämän avulla kolmas piste haluttuun kohtaan.</p></li>
-<li><p>Hae seuraava kohtisuora apuviiva näkyviin liikuttamalla hiirtä kohti neljättä pistettä, mutta ÄLÄ paina hiiren nappulaa. Kun apuviiva on näkyvissä ja laajennetun digitoinnin paneelissa näkyy kulman arvona 90 astetta paina <strong>CTRL+ A</strong> lukitaksesi kulman arvo. ÄLÄ klikkaa kolmatta pistettä kartalle.</p></li>
+<li><p>Hae seuraava kohtisuora apuviiva näkyviin liikuttamalla hiirtä kohti neljättä pistettä, mutta ÄLÄ paina hiiren nappulaa. Kun apuviiva on näkyvissä ja laajennetun digitoinnin paneelissa näkyy kulman arvona 90 astetta paina <strong>CTRL+ A</strong> lukitaksesi kulman arvo. ÄLÄ klikkaa neljättä pistettä kartalle.</p></li>
 <li><p>Vie hiiri suorakulmion aloituspisteeseen ja kun osoitin tarttuu pisteeseen, <strong>klikkaa sitä hiirellä</strong>. </p></li>
 <li><p>Saadaksesi piirtämisen päätökseen, <strong>klikkaa vielä hiiren oikealla</strong> <strong>näppäimellä.</strong> Suorakulmio on valmis.</p></li>
 </ol>
-<p><img src="img/harjoitus_6/Suorakulmaisen_polygonin_piirt%C3%A4minen.gif" /></p>
+<p><img src="img/harjoitus_6/Suorakulmaisen_polygonin_piirtaminen.gif" /></p>
 </div>
-<div id="tehtävä-rakennus-3540-m-tontin-rajan-suuntaisesti-etäisyys-rajaan-15-m" class="section level2" number="7.6">
-<h2><span class="header-section-number">7.6</span> Tehtävä: “Rakennus 35×40 m tontin rajan suuntaisesti, etäisyys rajaan 15 m”</h2>
+<div id="rakennustilan-hyödyntäminen-rakennuksen-piirtämisessä" class="section level2" number="7.6">
+<h2><span class="header-section-number">7.6</span> Rakennustilan hyödyntäminen rakennuksen piirtämisessä</h2>
 <p>Piirretään uusi kohde tietylle etäisyydelle ja tietyssä kulmassa halutusta pisteestä tai linjasta. Esimerkiksi jos halutaan piirtää 15 metrin etäisyydelle tontin reunasta suorakulmainen rakennus, jonka kukin sivu on 30 metriä, sen voi tehdä laajennetun digitoinnin työkaluja hyödyntäen mm. seuraavasti:</p>
 <ol style="list-style-type: decimal">
-<li><p>Lisää kurssihakemistostasi kiinteistörajat sisältävä vektoritaso <strong>MML_Kiinteistörekisteri_03-2023_L4141H_kiinteisoraja.mif</strong></p></li>
 <li><p>Valitse <strong>Rakennukset</strong> taso aktiiviseksi.</p></li>
 <li><p>Laita <strong>editointi</strong> päälle <img src="img/harjoitus_6/toggle_editing.png" width="26" height="24" /> <strong>Rakennukset</strong>- tasolle,  <strong>monikulmiokohteen piirtäminen päälle</strong> <img src="img/harjoitus_6/monikulmio_kohde.png" /> sekä l<strong>aajennetun digitoinnin työkalut</strong> aktiivisiksi <img src="img/harjoitus_6/image15.png" width="26" height="24" />.</p></li>
 <li><p><strong>Laita laajennetun digitoinnin</strong> paneelista (vasen reuna) <strong>rakentamistila</strong> päälle <img src="img/harjoitus_6/image19.png" /> (tai painamalla <strong>C</strong>).</p></li>
@@ -257,7 +251,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <li><p><strong>Piirrä</strong> ensimmäinen piste kohtisuoraa apuviivaa ja -sädettä hyödyntäen.</p></li>
 <li><p>Suora kulma pysyy valittuna, mutta etäisyys halutaan muuttaa 35 metriin (rakennuksen 1. seinän mitta). Paina <strong>D</strong>, syötä arvoksi 35 ja paina <strong>enter</strong>. Apusäde muuttuu 35 metriin. Piirrä rakennuksen seuraava nurkka.</p></li>
 <li><p>Vaihda etäisyydeksi 45 painamalla jälleen, syöttämällä arvo ja painamalla <strong>enter</strong>. Ympyrä kasvaa ja piirtäminen voidaan tehdä sen ja kohtisuoran apuviivan avulla. Etäisyys ja kulma pysyvät samana: piirrä kolmas nurkkapiste.</p></li>
-<li><p>Toista kohta 9.</p></li>
+<li><p>Toista kohta 8.</p></li>
 <li><p>Paina lopuksi hiiren oikeaa näppäintä, jolloin alue sulkeutuu. Rakennus on valmis.</p></li>
 </ol>
 <div class="figure">
@@ -265,30 +259,17 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p class="caption"><em>Rakennuksen piirtäminen käyttämällä aluksi rakennustilaa apuna etäisyyden määrittämiseen alueen rajasta. Tämän jälkeen rakennuksen mitat annetaan painamalla D ja antamalla seinän mitta, jolloin piirtämisen avuksi tulee ympyrä annetun etäisyyden säteellä.</em></p>
 </div>
 <p>Tämän jälkeen digitoi aineistoon rakennuksia vähintään kolme kappaletta hyödyntäen laajennetun digitoinnin ominaisuuksia. Koita myös kääntää rakennuksia 45 astetta hyödyntäen <strong>Kierrä kohteita -työkalua</strong> <img src="img/harjoitus_6/image21.png" />. <strong>CTRL+hiiren klikkaus</strong> asettaa käännökselle kulmapisteen, jonka mukaan kääntö suoritetaan.</p>
-<p>Ota lopuksi tason editointi pois päältä ja tallenna tasoon tehdyt muutokset.</p>
-</div>
-<div id="case-rakennusala-tontille-polygonin-kopiointi-toiseksi-itseään-pienemmäksi" class="section level2" number="7.7">
-<h2><span class="header-section-number">7.7</span> Case rakennusala tontille: polygonin kopiointi toiseksi itseään pienemmäksi</h2>
-<ol style="list-style-type: decimal">
-<li><p>Lisää <strong>MML_Kiinteistörekisteri_03-2023_L4141H_palsta.mif</strong> taso (jatkossa “lähtötaso”).</p></li>
-<li><p>Valitse polygoni/palsta, jonka haluat kopioida <strong>valintatyökalulla</strong> <img src="" /><img src="img/harjoitus_6/valintatyokalu.png" />.</p></li>
-<li><p>Kopioi polygoni leikepöydälle näppäinkomennolla <strong>CTRL+C</strong> tai (tai painamalla hiirellä valikosta <strong>Kopioi kohteet</strong> <img src="img/harjoitus_6/kopioi_kohteet.png" />).</p></li>
-<li><p>Jos haluat luoda kopion eri tasolle kuin millä alkuperäinen polygoni on, valitse kohdetaso tasopaneelista ja laita se <strong>editointitilaan</strong> <img src="img/harjoitus_6/toggle_editing.png" />.</p></li>
-<li><p>Liitä kopio tasolle painamalla <strong>CTRL+V</strong> tai valikosta <strong>Liitä kohteet</strong> <img src="img/harjoitus_6/liita_kohteet.png" />.</p></li>
-<li><p>Huomaa, että jos kohdetaso sijaitsee lähdetason alapuolella, liitetty polygoni jää alkuperäisen polygonin alle. Saat sen näkyviin joko vaihtamalla tasojen järjestystä (raahaamalla niitä tasot-paneelissa hiiren avulla) tai ottamalla päällä olevan tason pois näkyvistä tasopaneelissa.</p></li>
-<li><p>Jos uutta polygonia tarvitsee muokata (esim. pienentää), palaa kohdetasolle ja valitse polygoni.</p></li>
-<li><p>Valitse Advanced Digitizing -valikosta <strong>“Tee yhdensuuntaissiirtymä”</strong> -työkalu (Offset curve) <img src="img/harjoitus_6/offset_curve.png" />.</p></li>
-<li><p>Klikkaa kerran johonkin polygonin pisteeseen. Ruudun oikeaan yläkulmaan ilmestyy <strong>Siirtymä</strong>-asetusvalikko (Offset), johon voi syöttää halutun etäisyyden alkuperäisen polygonin viivasta (esim. -5 tekee tuo polygonin reunoja 5 metriä sisäänpäin aluperäisestä). Valikossa voi valita myös kulmien muodot <img src="img/harjoitus_6/kulmien_muodot_asetus.png" />-nappia painamalla.</p></li>
-</ol>
+<p>Voit myös testata pienentää tai suurentaa tekemiäsi polygoneja. Voit kopioida jo tekemäsi rakennuspolygonin. Valitse haluamasi polygoni <strong>valintatyökalulla</strong> <img src="" /><img src="img/harjoitus_6/valintatyokalu.png" /> ja kopioi se näppäinkomennolla <strong>CTRL+C</strong> tai painamalla hiirellä valikosta <strong>Kopioi kohteet</strong> <img src="img/harjoitus_6/kopioi_kohteet.png" />. Liitä haluamallesi tasolle <strong>CTRL+V</strong> tai <strong>Liitä kohteet</strong> <img src="img/harjoitus_6/liita_kohteet.png" />. Valitse Advanced Digitizing -valikosta <strong>“Tee yhdensuuntaissiirtymä”</strong> -työkalu (Offset curve) <img src="img/harjoitus_6/offset_curve.png" />. Klikkaa kerran johonkin polygonin pisteeseen. Ruudun oikeaan yläkulmaan ilmestyy <strong>Siirtymä</strong>-asetusvalikko (Offset), johon voi syöttää halutun etäisyyden alkuperäisen polygonin viivasta (esim. -5 tekee tuo polygonin reunoja 5 metriä sisäänpäin aluperäisestä). Valikossa voi valita myös kulmien muodot <img src="img/harjoitus_6/kulmien_muodot_asetus.png" />-nappia painamalla.</p>
 <div class="figure">
 <img src="img/harjoitus_6/Polygonin_kulma-asetukset.png" alt="" />
-<p class="caption"><em>Pienennetyn tai suurennetun polygonin kulmien muotoa voi muokata valikosta</em>.</p>
+<p class="caption">Pienennetyn tai suurennetun polygonin kulmien muotoa voi muokata valikosta.</p>
 </div>
-<p><img src="img/harjoitus_6/Polygonin_kopiointi_koon_muuttaminen.gif" />Ja sitten ei kun harjoittelemaan käyttöä! Esitellyt työkalut voivat tuntua hankalilta ensialkuun, mutta jo pienelläkin harjoituksella ja toistoilla käytännöt tulevat tutuksi ja työskentely jouhevoituu.</p>
+<p>Ota lopuksi tason editointi pois päältä ja tallenna tasoon tehdyt muutokset.</p>
+<p>Ja sitten ei kun harjoittelemaan käyttöä! Esitellyt työkalut voivat tuntua hankalilta ensialkuun, mutta jo pienelläkin harjoituksella ja toistoilla käytännöt tulevat tutuksi ja työskentely jouhevoituu.</p>
 <p>Olemme julkaisseet blogin myös liittyen <a href="https://gispo.fi/blogi/cad-aineistot-ja-qgis/">CAD-aineistojen käsittelyyn QGISissä</a>.</p>
 </div>
-<div id="lisätehtävä-lisää-rakennukset-tasolle-funktio-jolla-pinta-ala-tieto-päivittyy-automaattisesti" class="section level2" number="7.8">
-<h2><span class="header-section-number">7.8</span> Lisätehtävä: Lisää Rakennukset tasolle funktio, jolla pinta-ala tieto päivittyy automaattisesti</h2>
+<div id="lisätehtävä-lisää-rakennukset-tasolle-funktio-jolla-pinta-ala-tieto-päivittyy-automaattisesti" class="section level2" number="7.7">
+<h2><span class="header-section-number">7.7</span> Lisätehtävä: Lisää Rakennukset tasolle funktio, jolla pinta-ala tieto päivittyy automaattisesti</h2>
 <ol style="list-style-type: decimal">
 <li><p>Avaa Rakennukset-tason ominaisuudet. Mene kohtaan Attribuuttilomake</p></li>
 <li><p>Valitse kentistä Pinta-ala ja selaa kohtaan Oletusarvot.</p></li>
@@ -299,8 +280,8 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 <p><img src="img/harjoitus_6/Attribuuttilomake.png" /><img src="img/harjoitus_6/Lauseke.png" width="519" /></p></li>
 </ol>
 </div>
-<div id="lopuksi" class="section level2" number="7.9">
-<h2><span class="header-section-number">7.9</span> Lopuksi</h2>
+<div id="lopuksi" class="section level2" number="7.8">
+<h2><span class="header-section-number">7.8</span> Lopuksi</h2>
 <p>Avaa <strong>Kuvaustekniikka-paneeli</strong> tai mene tason ominaisuuksien kautta <strong>Kuvaustekniikka-välilehdelle</strong> ja muokkaa editoitujen kohteiden värit vastaamaan taustakartan värejä <strong>Värin valitsin -työkalua</strong> hyödyntäen.</p>
 <p>Voit vielä hyödyntää alueen reunaa käyttäen <strong>Seuraaminen-ominaisuutta</strong>:</p>
 <p> <a href="https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#automatic-tracing" class="uri">https://docs.qgis.org/3.22/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html#automatic-tracing</a></p>
@@ -324,7 +305,7 @@ type="button" onclick="navToggle()" aria-label="Toggle navigation">
 
 <div class="footer-info">
 <h5 class="footer-title">QGIS perusteet kunnille</h5>
-<span class="footer-version">v2023-05-08</span>
+<span class="footer-version">v2023-05-16</span>
 <div class="license"><img src="img/by-nd.svg" width="80px" alt="CC-BY-ND"></div>
 </div>
 
