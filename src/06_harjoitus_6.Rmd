@@ -60,11 +60,12 @@ Jos piirtämisen apuna tarvitaan etäisyyttä tietystä pisteestä tai tiettyä 
 
 Rakentamistila aktivoidaan laajennetun digitoinnin paneelista löytyvästä ![](img/harjoitus_6/image17.png)![]()-nappulasta. Sen saa päälle/pois päältä myös pikakomennolla **C**.
 
-Huom! Rakentamistilassa ollessa ei piirretä mitään. Kun olet saanut rakentamistilassa toivotut apuviivat näkyville ja haluat aloittaa varsinaisen piirtämisen, rakentamistila tulee sulkea joko painamalla hiirellä ![](img/harjoitus_6/image19.png) tai **C**-näppäimellä. Apuviivat jäävät näkyviin ja voit piirtää niiden avulla pisteen haluamaasi paikkaan.
+**Huom!** Rakentamistilassa ollessa ei piirretä mitään. Kun olet saanut rakentamistilassa toivotut apuviivat näkyville ja haluat aloittaa varsinaisen piirtämisen, rakentamistila tulee sulkea joko painamalla hiirellä ![](img/harjoitus_6/image19.png) tai **C**-näppäimellä. Apuviivat jäävät näkyviin ja voit piirtää niiden avulla pisteen haluamaasi paikkaan.
 
 ## Rakennuksen piirto apuviivojen avulla
 
 Lisätyökalujen avulla voi saada näkyville apuviivat ja tarttumisasetukset tiettyihin kulmiin, esimerkiksi 45 tai 90 asteen välein. Toiminnon saa päälle laajennetun digitoinnin paneelista (ikkunan vasemmassa laidassa) ![](img/harjoitus_6/snap_common_angles.png)-nappulasta. Oletuksena nollakulma on vaakatasossa piirtoalueen suhteen, mutta piirtämisen alettua kulma lasketaan viimeisen piirretyn viivan mukaan ja näkyviin tulee tukiviivoja haluttujen kulmien kohdalle.
+
 
 ### Sitten vain harjoittelemaan....
 
